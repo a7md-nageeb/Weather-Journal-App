@@ -1,0 +1,188 @@
+body {
+  background: #f6f6f6;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  font-family: 'Oswald', sans-serif;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-side{
+  padding: 50px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#errorMsg{
+  display: none;
+  color: red;
+  font-size: 15px;
+  position: relative;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.invalid{
+  display: block!important;
+}
+
+.right-side{
+  padding: 50px 20px 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 500px;
+}
+
+.entry {
+  background: #fff;
+  border-radius: 20px;
+  height: 100%;
+  overflow: hidden;
+  width: 487.5px;
+  min-height: 492px;
+}
+
+.holder {
+    color: #0456FB;
+}
+
+.holder.headline {
+  font-size: 30px;
+  background: #0456FB;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.holder.zip{
+  margin-bottom: 20px;
+}
+
+.holder.feel{
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  background: #0456FB;
+  color: #fff;
+  padding: 10px;
+}
+
+.title-entry {
+  font-size: 30px;
+  padding: 10px 0 0 65px;
+  color: #181B21;
+}
+
+
+#date {
+  background: #e3e3e3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 60px 5px 60px;
+  height: 24px;
+}
+
+#temp {
+  background: #e3e3e3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 60px 5px 60px;
+  height: 24px;
+}
+
+#content {
+  background: #e3e3e3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 60px 5px 60px;
+  height: 80px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 27px;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 472.5px;
+  background: #e3e3e3;
+  color: #181B21;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  margin: 5px 0 0 0;
+}
+
+button {
+  width: 487.5px;
+  height: 100px;
+  background: #0456FB;
+  color: #fff;
+  font-size: 26px;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+textarea {
+  background: #e3e3e3;
+  color: #181B21;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  width: 457.5px;
+  height: 170px;
+  resize: none;
+  border-style: none;
+  border-radius: 10px;
+  margin: 5px 0 20px 0;
+  padding: 15px;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #7e7e7e;
+  font-family: 'Oswald', sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #7e7e7e;
+  font-family: 'Oswald', sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #7e7e7e;
+  font-family: 'Oswald', sans-serif;
+}
