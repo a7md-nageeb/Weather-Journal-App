@@ -13,7 +13,6 @@ const feelingSpace = document.querySelector('#content');
 var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
 let d = new Date();
 let newDate = months[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear();
-console.log(newDate);
 
 
 //event listener for the button
