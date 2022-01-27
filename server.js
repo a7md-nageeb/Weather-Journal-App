@@ -28,13 +28,11 @@ app.post('/add', function(req, res) {
   projectData['feeling'] = req.body.feeling;
 
   res.send(projectData);
-  console.log(projectData);
 });
 
 //Get route
 app.get('/all', function(req, res) {
   res.send(projectData);
-  console.log(projectData);
 });
 
 // Setup Server
